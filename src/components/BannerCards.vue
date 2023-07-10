@@ -19,16 +19,6 @@ export default {
 <template>
     <div class="container my-5">
         <div class="row align-items-stretch justify-content-center">
-            <div class="container p-4">
-                <div class="row justify-content-center">
-                    <div
-                        class="col-12 col-lg-8 col-md-8 bg_item rounded-4 d-flex align-items-center justify-content-center">
-                        <img src="./../assets/img/icons/qgis_logo.png" alt="" class="logo">
-                        <img src="./../assets/img/icons/py_logo.svg" alt="" class="logo">
-                        <img src="./../assets/img/icons/gee.svg" alt="" class="logo">
-                    </div>
-                </div>
-            </div>
             <div v-for="link in links" :key="link.title" class="col-12 col-lg-3 col-md-6">
                 <div class="card rounded-4 bg_card my-3 d-flex bg_item">
                     <div class="card-header title">
