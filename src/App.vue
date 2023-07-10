@@ -1,11 +1,25 @@
 <script>
 
+import AppHeader from './components/AppHeader.vue';
+import Jumbotron from './components/Jumbotron.vue';
+
+export default {
+  data() {
+    return {
+    };
+  },
+  components: { AppHeader, Jumbotron },
+}
+
+
+
+
+
 </script>
 
 <template>
-  <h1>USGS</h1>
+  <AppHeader></AppHeader>
+  <Jumbotron></Jumbotron>
 </template>
 
-<style>
-
-</style>
+<style></style>
