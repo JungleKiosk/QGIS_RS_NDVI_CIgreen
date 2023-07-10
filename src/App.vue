@@ -2,13 +2,14 @@
 
 import AppHeader from './components/AppHeader.vue';
 import Jumbotron from './components/Jumbotron.vue';
+import Intro from './components/Intro.vue';
 
 export default {
   data() {
     return {
     };
   },
-  components: { AppHeader, Jumbotron },
+  components: { AppHeader, Jumbotron, Intro },
 }
 
 
@@ -20,6 +21,7 @@ export default {
 <template>
   <AppHeader></AppHeader>
   <Jumbotron></Jumbotron>
+  <Intro></Intro>
 </template>
 
 <style></style>
