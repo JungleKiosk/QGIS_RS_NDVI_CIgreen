@@ -40,12 +40,13 @@ export default {
                     0:
                     this data is often not distributed). <br> <br>
                     Level 1 data is usually distributed, whose DN is processed in physical value of
-                    <a href="https://www.usgs.gov/landsat-missions/using-usgs-landsat-level-1-data-product">RADIANCE</a>
+                    <a href="https://www.usgs.gov/landsat-missions/using-usgs-landsat-level-1-data-product" target="_blank">RADIANCE</a>
                     (amount of
                     radiation reflected by a single pixel), however it is not a comparable measure between various images
                     because it depends a lot on the position of the sun, of the satellite to a certain pixel...
-                    Therefore Remote Sensing (RS) we use the physical unit of REFLECTANCE (% of reflected light from 0 to
-                    1).
+                    Therefore Remote Sensing (RS) we use the physical unit of
+                    <a href="https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products" target="_blank">REFLECTANCE</a> 
+                    (% of reflected light from 0 to 1).
                     <br> <br>
 
                     Nearly 10 years ago data was available in raw format and post-processed; it was necessary to be familiar
@@ -106,19 +107,19 @@ export default {
                 Landsat8 = B5, B4, B3 (NIR, red, green) <br> <br>
 
                 <img class="img" src="../assets/img/comb_bands.png" alt=""> <br>
-                <a href="https://www.usgs.gov/media/images/common-landsat-band-combinations">USGS web site</a> <br> <br>
+                <a href="https://www.usgs.gov/media/images/common-landsat-band-combinations" target="_blank">USGS web site</a> <br> <br>
 
                 <h4>Vegetation indices: </h4>
                 Calculation of vegetation indices is a widely used method for assessing vegetation health and density using
                 satellite imagery. One of the most common vegetation index is the
-                <a href="https://www.usgs.gov/landsat-missions/landsat-normalized-difference-vegetation-index">Normalized
+                <a href="https://www.usgs.gov/landsat-missions/landsat-normalized-difference-vegetation-index" target="_blank">Normalized
                     Difference Vegetation Index</a> (NDVI),
                 usually used for analysis contexts where the vegetation is moderately dense. <br> <br>
 
                 The relationship between NDVI and LAI (Leaf Area Index) is logarithmic: at high LAI values ( > 4 ) the function
                 tends to saturate and the index becomes insensitive to high densities of vegetation, while the
                 relationship between
-                <a href="Green Chlorophyll Index">Green Chlorophyll Index</a> (CIgreen)
+                <a href="Green Chlorophyll Index" target="_blank">Green Chlorophyll Index</a> (CIgreen)
                 and LAI is linear. <br>
                 In an analysis context in which the vegetation is very dense, the CIgreen index better discretizes the
                 different zones of vegetal vigor.

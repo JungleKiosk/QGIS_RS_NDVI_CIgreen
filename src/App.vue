@@ -6,22 +6,20 @@ import AppHeader from './components/AppHeader.vue';
 import Jumbotron from './components/Jumbotron.vue';
 import Intro from './components/Intro.vue';
 import BannerCards from './components/BannerCards.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   data() {
     return {
     };
   },
-  components: { AppHeader, Jumbotron, Intro, BannerCards },
+  components: { AppHeader, Jumbotron, Intro, BannerCards, AppFooter },
   computed: {
     linksData() {
       return links;
     }
   }
 }
-
-
-
 
 
 </script>
@@ -31,6 +29,7 @@ export default {
   <Jumbotron></Jumbotron>
   <BannerCards :links="linksData"></BannerCards>
   <Intro></Intro>
+  <AppFooter></AppFooter>
 </template>
 
 <style></style>

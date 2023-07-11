@@ -1,39 +1,39 @@
 export const links = [
     {
         img: "download.jpg",
-        title: '',
+        title: 'Download from USGS',
         desc: "",
-        video: "",
+        video: "https://www.youtube.com/watch?v=gGKe2DtCPR8&list=PLR8J_sq3CKNdfw9ATZvjm_tobxt4bhKdC",
     },
     {
         img: "clip.jpg",
-        title: '',
+        title: 'Clip multiple bands',
         desc: "",
-        video: "",
+        video: "https://www.youtube.com/watch?v=7rlH1pz578o&list=PLR8J_sq3CKNdfw9ATZvjm_tobxt4bhKdC&index=2",
     },
     {
         img: "RT.jpg",
-        title: '',
+        title: 'Scaling Reflectance',
         desc: "",
-        video: "",
+        video: "https://www.youtube.com/watch?v=Siat-JUgpGc&list=PLR8J_sq3CKNdfw9ATZvjm_tobxt4bhKdC&index=3",
     }
     ,
     {
         img: "stack.jpg",
-        title: '',
+        title: 'Stacking',
         desc: "",
-        video: "",
+        video: "https://www.youtube.com/watch?v=ILtHi2RLTkY&list=PLR8J_sq3CKNdfw9ATZvjm_tobxt4bhKdC&index=4",
     },
     {
         img: "index.jpg",
-        title: '',
+        title: 'Vegetation indices',
         desc: "",
-        video: "",
+        video: "https://www.youtube.com/watch?v=5aiOeA43ZO4&list=PLR8J_sq3CKNdfw9ATZvjm_tobxt4bhKdC&index=5",
     },
     {
-        img: "stack.jpg",
-        title: '',
+        img: "altRT.jpg",
+        title: 'Alternative Scaling',
         desc: "",
-        video: "",
+        video: "https://www.youtube.com/watch?v=G5JRZ5qNuGk&list=PLR8J_sq3CKNdfw9ATZvjm_tobxt4bhKdC&index=6",
     }
 ]
