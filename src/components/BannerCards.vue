@@ -43,12 +43,13 @@ export default {
   
 
 <style>
+
 img {
     width: 100%;
 }
 
 .link_video a{
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .yt_icon {
