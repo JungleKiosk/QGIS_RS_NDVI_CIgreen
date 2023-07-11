@@ -107,7 +107,7 @@ export default {
                 Landsat8 = B5, B4, B3 (NIR, red, green) <br> <br>
 
                 <img class="img" src="../assets/img/comb_bands.png" alt=""> <br>
-                <a href="https://www.usgs.gov/media/images/common-landsat-band-combinations" target="_blank">USGS web site</a> <br> <br>
+                <a href="https://www.usgs.gov/media/images/common-landsat-band-combinations" target="_blank">USGS website</a> <br> <br>
 
                 <h4>Vegetation indices: </h4>
                 Calculation of vegetation indices is a widely used method for assessing vegetation health and density using

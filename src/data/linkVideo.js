@@ -7,13 +7,13 @@ export const links = [
     },
     {
         img: "clip.jpg",
-        title: 'Clip multiple bands',
+        title: 'SCP: Clip multiple bands',
         desc: "",
         video: "https://www.youtube.com/watch?v=7rlH1pz578o&list=PLR8J_sq3CKNdfw9ATZvjm_tobxt4bhKdC&index=2",
     },
     {
         img: "RT.jpg",
-        title: 'Scaling Reflectance',
+        title: 'SCP: Scaling Reflectance',
         desc: "",
         video: "https://www.youtube.com/watch?v=Siat-JUgpGc&list=PLR8J_sq3CKNdfw9ATZvjm_tobxt4bhKdC&index=3",
     }
