@@ -40,3 +40,8 @@ body::-webkit-scrollbar-thumb:hover {
 body::-webkit-scrollbar-track {
     border-left: 1px solid $dark ;
 }
+
+.bg_item {
+    background-color: $dark ;
+    color: $light;
+}

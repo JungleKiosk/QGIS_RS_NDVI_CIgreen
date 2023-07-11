@@ -12,11 +12,11 @@ export default {
 
 <template>
     <div class="container my-5">
-        <div class="row">
-            <div class="col-12 col-lg-10 col-md-8 rounded-4 p-3">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10 col-md-8 rounded-4 p-3 bg_item">
 
                 <p>
-                <h4>Intro:</h4>
+                <h4 class="title">Intro:</h4>
                 the USGS policy is to keep data processed with obsolete and newer technologies on file (obsolescence
                 time: 4-5 years); this makes it useful for those contexts in which it is necessary to compare data with
                 different acquisition characteristics, a key issue for the analysis of multi-time series (main
@@ -66,7 +66,7 @@ export default {
                     eg: landsat vs sentinel: using atmospherically corrected data could cause errors, because the data
                     correction methods are different and there could be some inconsistencies in the comparison.
 
-                <h4>Image Choice Concepts:</h4>
+                <h4 class="title">Image Choice Concepts:</h4>
                 For an analysis of the vegetation, snow represents a covering element, therefore to be avoided. <br>
                 The NIR, NIR-1, RED configuration (thanks to the fact that there is mid-infrared) allows you to identify
                 snow (cyan color) and distinguish it from clouds (white color). <br>
@@ -84,7 +84,7 @@ export default {
                 band, to transform the reflectance values into absolute physical values of radiance to the sensor
                 (Pre-processing); <br> <br>
 
-                <h4>Spectral signature: </h4>
+                <h4 class="title">Spectral signature: </h4>
 
                 Landsat 7 has an onboard EMT sensor while Landsat4-5 had EMT, avoid L7 data because only for a few years the
                 sensor has been damaged. To view a satellite image you must choose the correct combination of bands with
@@ -109,7 +109,7 @@ export default {
                 <img class="img" src="../assets/img/comb_bands.png" alt=""> <br>
                 <a href="https://www.usgs.gov/media/images/common-landsat-band-combinations" target="_blank">USGS website</a> <br> <br>
 
-                <h4>Vegetation indices: </h4>
+                <h4 class="title">Vegetation indices: </h4>
                 Calculation of vegetation indices is a widely used method for assessing vegetation health and density using
                 satellite imagery. One of the most common vegetation index is the
                 <a href="https://www.usgs.gov/landsat-missions/landsat-normalized-difference-vegetation-index" target="_blank">Normalized
