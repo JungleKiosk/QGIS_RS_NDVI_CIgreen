@@ -19,19 +19,19 @@ export default {
 <template>
     <div class="container my-5">
         <div class="row align-items-stretch justify-content-center">
-            <div v-for="link in links" :key="link.title" class="col-12 col-lg-3 col-md-6">
+            <div v-for="link in links" :key="link.title" class="col-12 col-lg-4 col-md-6">
                 <div class="card rounded-4 bg_card my-3 d-flex bg_item">
                     <div class="card-header title">
                         {{ link.title }}
                     </div>
                     <div class="card-body d-flex flex-column">
                         <p>{{ link.desc }}</p>
-                        <img class="rounded-pill card_img_zoom" :src="getImagePath(link.img)" alt="Image"
+                        <img class="rounded-2 card_img_zoom" :src="getImagePath(link.img)" alt="Image"
                             style="height: 200px;" />
                         <div class="link_video py-1 text-center">
                             <a class="title" :href="link.video" target="_blank">
                                 Go to video
-                                <img class="yt_icon" src="./../assets/img/icons/yt.svg" alt="">
+                                <img class="yt_icon" src="./../assets/img/yt.svg" alt="">
                             </a>
                         </div>
                     </div>

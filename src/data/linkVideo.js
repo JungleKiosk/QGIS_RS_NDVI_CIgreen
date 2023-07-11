@@ -1,25 +1,37 @@
 export const links = [
     {
-        img: "",
+        img: "download.jpg",
         title: '',
         desc: "",
         video: "",
     },
     {
-        img: "",
+        img: "clip.jpg",
         title: '',
         desc: "",
         video: "",
     },
     {
-        img: "",
+        img: "RT.jpg",
         title: '',
         desc: "",
         video: "",
     }
     ,
     {
-        img: "",
+        img: "stack.jpg",
+        title: '',
+        desc: "",
+        video: "",
+    },
+    {
+        img: "index.jpg",
+        title: '',
+        desc: "",
+        video: "",
+    },
+    {
+        img: "stack.jpg",
         title: '',
         desc: "",
         video: "",
